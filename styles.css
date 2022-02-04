@@ -1,0 +1,47 @@
+body{
+    background: #e7e7e7;
+    margin: 0;
+    font-family: Helvetica;
+}
+header{
+    background: white;
+    padding: 10px;
+    font-size: 10px;
+}
+header h1{
+    margin: 0;
+}
+h2 {
+    font-size: 10px;
+}
+p {
+    font-size: 9px;
+}
+div.post{
+    background: white;
+    margin-top: 10px;
+
+}
+div.post img{
+    width: 100%;
+}
+div.post .post-header div:first-child{
+    display: inline-block;
+    width: 80%;
+}
+div.post .post-header div:last-child{
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    margin-left: -15px;
+    color:rgb(189, 189, 189);
+    font-size: 10px;
+}
+div.post h2, div.post p{
+    padding: 10px;
+    margin: 0;
+}
+div.container{
+    width: 500px;
+    margin: auto;
+}
